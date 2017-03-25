@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+	<id>Synic SMS Module</id>
+	<version>1.0</version>
+	<vqmver>2.X</vqmver>
+	<author>Synic systems Pvt. Ltd.</author>
+
+	<file name="system/startup.php">
+        <operation error="log">
+            <search position="after"><![CDATA[require_once(DIR_SYSTEM . 'library/template.php');]]></search>
+            <add><![CDATA[require_once(DIR_SYSTEM . 'library/synicsys.php');]]></add>
+        </operation>
+    </file>
+
+	<file name="catalog/model/account/customer.php">
+        <operation error="log">
+            <search position="after"><![CDATA[// Send to main admin email if new account email is enabled]]></search>
+            <add><![CDATA[	
+                if (($this->config->get('synicsys_status') == "1") && ($this->config->get('synicsys_reg_notify') == "1")) {	
+                    $sms = new Synicsys();
+                    $message = "Hello Admin, A new customer ".$data['firstname']." has created an account";
+                    $sms->notifyAdmin($message);                                   
+                }			    
+			]]></add>
+        </operation>
+    </file>
+
+    <file name="catalog/model/checkout/order.php">
+        <operation error="log">
+            <search position="after"><![CDATA[// Admin Alert Mail]]></search>
+            <add><![CDATA[
+            if ($this->config->get('synicsys_status') == "1") {                
+                $sms = new Synicsys();               
+                $message = "Hello Admin, ".$order_info['firstname']." has placed an order ".$order_info['order_id']."";
+                $sms->notifyAdmin($message);          
+            }
+            ]]></add>
+        </operation>
+        <operation error="log">
+            <search position="before"><![CDATA[// Admin Alert Mail]]></search>
+            <add><![CDATA[
+                if ($this->config->get('synicsys_status') == "1") {
+                    $sms = new Synicsys();  
+                    $url = $this->config->get('synicsys_website_url');             
+                    $message = "Dear ".$order_info['firstname']." , You order with order id #".$order_info['order_id']." has been placed.";
+
+                    if ($url) {
+                        $message .= "Thanks for shopping with ".$url."";
+                    }
+                    
+                    if (isset($order_info['telephone'])) {
+                        $to = $order_info['telephone'];
+                        $sms->send($to,$message);
+                    }
+                }
+            ]]></add>
+        </operation>
+</modification>

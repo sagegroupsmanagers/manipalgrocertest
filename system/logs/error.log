@@ -1,0 +1,19 @@
+2017-03-21 13:06:02 - PHP Notice:  Undefined variable: cheque_geo_zone_id in /var/www/html/admin/view/template/payment/ccavenuepay.tpl on line 135
+2017-03-21 13:06:02 - PHP Notice:  Undefined variable: cheque_geo_zone_id in /var/www/html/admin/view/template/payment/ccavenuepay.tpl on line 135
+2017-03-21 13:07:46 - PHP Notice:  Undefined index: terms in /var/www/html/catalog/view/theme/default/template/checkout/payment_method.tpl on line 16
+2017-03-21 13:09:55 - PHP Notice:  Undefined index: terms in /var/www/html/catalog/view/theme/default/template/checkout/payment_method.tpl on line 16
+2017-03-21 13:12:51 - PHP Notice:  Undefined index: terms in /var/www/html/catalog/view/theme/default/template/checkout/payment_method.tpl on line 16
+2017-03-21 13:26:54 - PHP Notice:  Undefined variable: cheque_geo_zone_id in /var/www/html/admin/view/template/payment/ccavenuepay.tpl on line 135
+2017-03-21 13:26:54 - PHP Notice:  Undefined variable: cheque_geo_zone_id in /var/www/html/admin/view/template/payment/ccavenuepay.tpl on line 135
+2017-03-24 11:44:46 - PHP Warning:  require_once(vendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/catalog/controller/checkout/success.php on line 58
+2017-03-24 11:45:29 - PHP Warning:  require_once(vendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/catalog/controller/checkout/success.php on line 58
+2017-03-24 11:47:00 - PHP Warning:  require_once(vendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/catalog/controller/checkout/success.php on line 58
+2017-03-24 11:47:49 - PHP Warning:  require_once(vendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/catalog/controller/checkout/success.php on line 58
+2017-03-24 11:47:56 - PHP Warning:  require_once(vendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/catalog/controller/checkout/success.php on line 58
+2017-03-24 12:30:17 - PHP Warning:  require_once(vendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/catalog/controller/checkout/success.php on line 58
+2017-03-24 12:31:20 - PHP Warning:  require_once(vendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/catalog/controller/checkout/success.php on line 58
+2017-03-24 12:33:04 - PHP Warning:  require_once(vendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/catalog/controller/checkout/success.php on line 58
+2017-03-24 12:33:06 - PHP Warning:  require_once(vendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/catalog/controller/checkout/success.php on line 58
+2017-03-24 12:33:08 - PHP Warning:  require_once(vendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/catalog/controller/checkout/success.php on line 58
+2017-03-24 12:46:48 - PHP Warning:  require_once(//vendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/catalog/controller/checkout/success.php on line 58
+2017-03-24 12:47:26 - PHP Warning:  require_once(/var/www/html/vendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/catalog/controller/checkout/success.php on line 58

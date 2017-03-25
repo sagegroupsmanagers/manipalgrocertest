@@ -1,0 +1,421 @@
+2017-03-24 3:54:54 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+2017-03-24 3:55:20 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: AJAX Live Search
+FILE: catalog/controller/common/footer.php
+CODE: $this->load->language('common/footer');
+LINE: 15
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: </footer>
+LINE: 148
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+2017-03-24 3:55:24 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: AJAX Live Search
+FILE: catalog/controller/common/footer.php
+CODE: $this->load->language('common/footer');
+LINE: 15
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: </footer>
+LINE: 148
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+2017-03-24 4:00:02 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: AJAX Live Search
+FILE: catalog/controller/common/footer.php
+CODE: $this->load->language('common/footer');
+LINE: 15
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: </footer>
+LINE: 148
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+2017-03-24 4:48:52 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: AJAX Live Search
+FILE: catalog/controller/common/footer.php
+CODE: $this->load->language('common/footer');
+LINE: 15
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: </footer>
+LINE: 148
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+2017-03-24 4:48:53 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: AJAX Live Search
+FILE: catalog/controller/common/footer.php
+CODE: $this->load->language('common/footer');
+LINE: 15
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: </footer>
+LINE: 148
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+2017-03-24 4:48:54 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: AJAX Live Search
+FILE: catalog/controller/common/footer.php
+CODE: $this->load->language('common/footer');
+LINE: 15
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: </footer>
+LINE: 148
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+2017-03-24 5:01:07 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: AJAX Live Search
+FILE: catalog/controller/common/footer.php
+CODE: $this->load->language('common/footer');
+LINE: 15
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: </footer>
+LINE: 148
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+2017-03-24 6:05:12 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: AJAX Live Search
+FILE: catalog/controller/common/footer.php
+CODE: $this->load->language('common/footer');
+LINE: 15
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: </footer>
+LINE: 148
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+2017-03-24 6:05:22 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: AJAX Live Search
+FILE: catalog/controller/common/footer.php
+CODE: $this->load->language('common/footer');
+LINE: 15
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: </footer>
+LINE: 148
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+2017-03-24 6:05:23 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: AJAX Live Search
+FILE: catalog/controller/common/footer.php
+CODE: $this->load->language('common/footer');
+LINE: 15
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: </footer>
+LINE: 148
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+2017-03-24 6:05:25 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: AJAX Live Search
+FILE: catalog/controller/common/footer.php
+CODE: $this->load->language('common/footer');
+LINE: 15
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: </footer>
+LINE: 148
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+2017-03-24 6:05:30 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: AJAX Live Search
+FILE: catalog/controller/common/footer.php
+CODE: $this->load->language('common/footer');
+LINE: 15
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: </footer>
+LINE: 148
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
